@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JSpinner" name="jSpinner1">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="jButtonValider" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jButtonModifAjout1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabelCode" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
+                          <Component id="jLabelNom" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
+                          <Component id="jLabelPrenom" alignment="0" min="-2" pref="84" max="-2" attributes="0"/>
+                          <Component id="jLabelDateNaiss" min="-2" pref="114" max="-2" attributes="0"/>
+                          <Component id="jLabelDateEmb" min="-2" pref="117" max="-2" attributes="0"/>
+                          <Component id="jLabelFonct" alignment="0" min="-2" pref="117" max="-2" attributes="0"/>
+                          <Component id="jLabelTauxHorr" alignment="0" min="-2" pref="117" max="-2" attributes="0"/>
+                          <Component id="jLabelSituFami" alignment="0" min="-2" pref="117" max="-2" attributes="0"/>
+                          <Component id="jLabelNbEnfant" alignment="0" min="-2" pref="117" max="-2" attributes="0"/>
+                          <Component id="jLabelNbCath" alignment="0" min="-2" pref="117" max="-2" attributes="0"/>
+                          <Component id="jLabelCodeServ" min="-2" pref="117" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="197" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jTextFieldNombreEnfants" alignment="1" max="32767" attributes="0"/>
+                          <Component id="jTextFieldTauxHoraire" alignment="1" max="32767" attributes="0"/>
+                          <Component id="jTextFieldFonction" alignment="1" pref="175" max="32767" attributes="0"/>
+                          <Component id="jTextFieldPrenom" alignment="1" max="32767" attributes="0"/>
+                          <Component id="jTextFieldNom" alignment="1" max="32767" attributes="0"/>
+                          <Component id="jTextFieldCode" alignment="1" max="32767" attributes="0"/>
+                          <Component id="jTextFieldDateNaissance" alignment="1" max="32767" attributes="0"/>
+                          <Component id="jTextFieldDateEmbauche" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jTextFieldSituationFamiliale" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jTextFieldNumCathegorie" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jTextFieldCodeService" alignment="1" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="231" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="162" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="31" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTextFieldCode" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                  <Component id="jLabelCode" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTextFieldNom" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                  <Component id="jLabelNom" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTextFieldPrenom" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                  <Component id="jLabelPrenom" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelDateNaiss" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextFieldDateNaissance" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelDateEmb" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextFieldDateEmbauche" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTextFieldFonction" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelFonct" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTextFieldTauxHoraire" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelTauxHorr" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelSituFami" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextFieldSituationFamiliale" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTextFieldNombreEnfants" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelNbEnfant" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelNbCath" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextFieldNumCathegorie" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelCodeServ" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextFieldCodeService" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jButtonModifAjout1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButtonValider" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabelCode">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Code :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelNom">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nom :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelPrenom">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pr&#xe9;nom :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelDateNaiss">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Date naissance :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelDateEmb">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Date embauche :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelFonct">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fonction :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelTauxHorr">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Taux horaire :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelSituFami">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Situation familiale :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelNbEnfant">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre enfants :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelNbCath">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Num&#xe9;ro cathegorie :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelCodeServ">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Code service :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldCode">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldCodeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldNom">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldNomActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldPrenom">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldPrenomActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldFonction">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Chef de projet"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldFonctionActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldTauxHoraire">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="32.5"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldTauxHoraireActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldNombreEnfants">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="3"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldNombreEnfantsActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonModifAjout1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Quitter"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonModifAjout1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldDateNaissance">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="10/03/1995"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldDateNaissanceActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldDateEmbauche">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="23/10/2023"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldDateEmbaucheActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldSituationFamiliale">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Marie"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldSituationFamilialeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldNumCathegorie">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="E1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldNumCathegorieActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldCodeService">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="S01"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldCodeServiceActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonValider">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Valider"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonValiderActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Modification des informations du salari&#xe9; :"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
